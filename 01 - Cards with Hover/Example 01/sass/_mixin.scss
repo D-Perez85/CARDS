@@ -1,0 +1,12 @@
+@mixin bg-card ($color) {
+    background: $color;
+    background-clip: text;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@mixin bg-gradient($deg, $color1, $color2, $color3){
+    background-image: linear-gradient($deg, $color1, $color2, $color3);
+    border-radius: 15px;
+}
+
